@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: "Stack Sans Text", sans-serif;
+}
+
+.head-header {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 20%, rgba(255, 240, 0, 1) 130%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 4px 15px rgba(255, 255, 0, 0.3);
+}
+
+.header {
+    padding: 22px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: yellow;
+    font-family: "Staatliches";
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(255, 255, 100, 0.8);
+    text-decoration: none;
+}
+
+.logo a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.nav {
+    display: flex;
+    gap: 35px;
+}
+
+.nav a {
+    color: yellow;
+    font-size: 18px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    opacity: 0.6;
+    transform: scale(1.05);
+}
+
+.header-btn {
+    background: yellow;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.header-btn:hover {
+    background: white;
+}
+
+.carousel-section {
+    margin-top: 120px;
+}
+
+.carousel img {
+    border-radius: 15px;
+}
+
+.features {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.features-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 30px;
+    margin-top: 150px;
+}
+
+
+.card {
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+    
+    width: 300px;
+}
+
+.card a {
+    text-decoration: none;
+}
+.card p {
+    color: whitesmoke;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px #ffd90060;
+}
+
+.card img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 15px;
+    color: yellow;
+    font-size: 22px;
+}
+
+.card p {
+    opacity: 0.75;
+    margin: 8px 0;
+}
+
+.card-btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: yellow;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.card-btn:hover {
+    background: white;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    opacity: 0.7;
+}
+
+
+.container {
+    width: min(100% - 30px, 1500px);
+    margin-inline: auto;
+}
+
+
+.img {
+    width: 300px;
+}

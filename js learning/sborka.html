@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sborka.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="head-header">
+            <header class="header container">
+                <h1 class="logo"><a href="./index.html">HYPER-STORE</a></h1>
+                <nav class="nav">
+                    <a href="./pc.html">Игровые ПК</a>
+                    <a href="./aksesuari.html">Аксессуары</a>
+                    <!-- <a href="#">Ноутбуки</a> -->
+                    <a href="#">Отзывы</a>
+                    <a href="#">О нас</a>
+                </nav>
+                <a class="header-btn" href="./four.html">ЗАДАТЬ ВОПРОС</a>
+            </header>
+
+
+            <main>
+                <div>
+                    <h2>Собери свой ПК</h2>
+
+                    <label>Процессор (CPU):</label>
+                    <select id="cpuSelect"></select>
+
+                    <label>Материнская плата (Motherboard):</label>
+                    <select id="mbSelect"></select>
+
+                    <label>Оперативная память (RAM):</label>
+                    <select id="ramSelect"></select>
+
+                    <label>Видеокарта (GPU):</label>
+                    <select id="gpuSelect"></select>
+
+                    <label>Блок питания (PSU):</label>
+                    <select id="psuSelect"></select>
+
+                    <h3>Итоговая цена: <span id="totalPrice">0</span> so'm</h3>
+                </div>
+
+                <button id="addToCartBtn">Добавить в заказ</button>
+
+<div id="buildResult" style="margin-top: 15px; font-weight: bold;"></div>
+
+            </main>
+
+
+            <script src="./main.js"></script>
+        </div>
+</body>
+
+</html>
